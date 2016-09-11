@@ -1,35 +1,8 @@
 //Script DLL example. Put the 'pluginsdk' directory from the snapshot in the same directory as this file and compile as a DLL.
 
-#include "pluginsdk/bridgemain.h"
-#include "pluginsdk/_plugins.h"
-#include "pluginsdk/_scriptapi_argument.h"
-#include "pluginsdk/_scriptapi_assembler.h"
-#include "pluginsdk/_scriptapi_bookmark.h"
-#include "pluginsdk/_scriptapi_comment.h"
-#include "pluginsdk/_scriptapi_debug.h"
-#include "pluginsdk/_scriptapi_flag.h"
-#include "pluginsdk/_scriptapi_function.h"
-#include "pluginsdk/_scriptapi_gui.h"
-#include "pluginsdk/_scriptapi_label.h"
-#include "pluginsdk/_scriptapi_memory.h"
-#include "pluginsdk/_scriptapi_misc.h"
-#include "pluginsdk/_scriptapi_module.h"
-#include "pluginsdk/_scriptapi_pattern.h"
-#include "pluginsdk/_scriptapi_register.h"
-#include "pluginsdk/_scriptapi_stack.h"
-#include "pluginsdk/_scriptapi_symbol.h"
-
-#ifdef _WIN64
-#pragma comment(lib, "pluginsdk/x64dbg.lib")
-#pragma comment(lib, "pluginsdk/x64bridge.lib")
-#else
-#pragma comment(lib, "pluginsdk/x32dbg.lib")
-#pragma comment(lib, "pluginsdk/x32bridge.lib")
-#endif //_WIN64
+#include "UpxUnpacker.h"
 
 using namespace Script;
-
-#define Cmd(x) DbgCmdExecDirect(x)
 
 extern "C" __declspec(dllexport) void AsyncStart() //async because we are using debug features
 {
