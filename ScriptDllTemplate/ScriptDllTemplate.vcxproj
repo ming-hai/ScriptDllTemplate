@@ -12,7 +12,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{5238F1BE-A2D1-408B-BD7D-963366268664}</ProjectGuid>
-    <RootNamespace>ScriptDLL</RootNamespace>
+    <RootNamespace>ScriptDllTemplate</RootNamespace>
+    <ProjectName>ScriptDllTemplate</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
