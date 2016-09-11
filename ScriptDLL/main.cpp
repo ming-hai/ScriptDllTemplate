@@ -1,6 +1,6 @@
 //Script DLL example. Put the 'pluginsdk' directory from the snapshot in the same directory as this file and compile as a DLL.
 
-#include "ScriptDLL.h"
+#include "main.h"
 
 using namespace Script;
 

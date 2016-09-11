@@ -44,11 +44,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ScriptDLL.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="pluginsdk\capstone\arm.h">
       <Filter>Header Files\pluginsdk\capstone</Filter>
     </ClInclude>
@@ -280,7 +275,7 @@
     <ClInclude Include="pluginsdk\bridgemain.h">
       <Filter>Header Files\pluginsdk</Filter>
     </ClInclude>
-    <ClInclude Include="ScriptDLL.h">
+    <ClInclude Include="main.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -345,5 +340,10 @@
     <Library Include="pluginsdk\yara\yara_x86.lib">
       <Filter>Library Files</Filter>
     </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
