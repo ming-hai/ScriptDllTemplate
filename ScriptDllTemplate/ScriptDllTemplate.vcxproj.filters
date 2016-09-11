@@ -39,9 +39,6 @@
     <Filter Include="Header Files\pluginsdk\yara\yara">
       <UniqueIdentifier>{a7e84a7c-b09c-40d8-b685-8ed504db9f41}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Library Files">
-      <UniqueIdentifier>{83b94fba-0963-43a4-b8bd-12730a208fad}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pluginsdk\capstone\arm.h">
@@ -278,68 +275,6 @@
     <ClInclude Include="main.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Library Include="pluginsdk\x32bridge.lib">
-      <Filter>Library Files</Filter>
-    </Library>
-    <Library Include="pluginsdk\x32dbg.lib">
-      <Filter>Library Files</Filter>
-    </Library>
-    <Library Include="pluginsdk\x64bridge.lib">
-      <Filter>Library Files</Filter>
-    </Library>
-    <Library Include="pluginsdk\x64dbg.lib">
-      <Filter>Library Files</Filter>
-    </Library>
-    <Library Include="pluginsdk\capstone\capstone_x64.lib">
-      <Filter>Library Files</Filter>
-    </Library>
-    <Library Include="pluginsdk\capstone\capstone_x86.lib">
-      <Filter>Library Files</Filter>
-    </Library>
-    <Library Include="pluginsdk\dbghelp\dbghelp_x64.lib">
-      <Filter>Library Files</Filter>
-    </Library>
-    <Library Include="pluginsdk\dbghelp\dbghelp_x86.lib">
-      <Filter>Library Files</Filter>
-    </Library>
-    <Library Include="pluginsdk\DeviceNameResolver\DeviceNameResolver_x64.lib">
-      <Filter>Library Files</Filter>
-    </Library>
-    <Library Include="pluginsdk\DeviceNameResolver\DeviceNameResolver_x86.lib">
-      <Filter>Library Files</Filter>
-    </Library>
-    <Library Include="pluginsdk\jansson\jansson_x64.lib">
-      <Filter>Library Files</Filter>
-    </Library>
-    <Library Include="pluginsdk\jansson\jansson_x86.lib">
-      <Filter>Library Files</Filter>
-    </Library>
-    <Library Include="pluginsdk\lz4\lz4_x64.lib">
-      <Filter>Library Files</Filter>
-    </Library>
-    <Library Include="pluginsdk\lz4\lz4_x86.lib">
-      <Filter>Library Files</Filter>
-    </Library>
-    <Library Include="pluginsdk\TitanEngine\TitanEngine_x64.lib">
-      <Filter>Library Files</Filter>
-    </Library>
-    <Library Include="pluginsdk\TitanEngine\TitanEngine_x86.lib">
-      <Filter>Library Files</Filter>
-    </Library>
-    <Library Include="pluginsdk\XEDParse\XEDParse_x64.lib">
-      <Filter>Library Files</Filter>
-    </Library>
-    <Library Include="pluginsdk\XEDParse\XEDParse_x86.lib">
-      <Filter>Library Files</Filter>
-    </Library>
-    <Library Include="pluginsdk\yara\yara_x64.lib">
-      <Filter>Library Files</Filter>
-    </Library>
-    <Library Include="pluginsdk\yara\yara_x86.lib">
-      <Filter>Library Files</Filter>
-    </Library>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
