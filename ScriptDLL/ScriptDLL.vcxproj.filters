@@ -44,7 +44,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="UpxUnpacker.cpp">
+    <ClCompile Include="ScriptDLL.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -280,7 +280,7 @@
     <ClInclude Include="pluginsdk\bridgemain.h">
       <Filter>Header Files\pluginsdk</Filter>
     </ClInclude>
-    <ClInclude Include="UpxUnpacker.h">
+    <ClInclude Include="ScriptDLL.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
