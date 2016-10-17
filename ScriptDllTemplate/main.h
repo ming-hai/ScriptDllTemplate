@@ -51,3 +51,4 @@
 #endif //_WIN64
 
 #define Cmd(x) DbgCmdExecDirect(x)
+#define Eval(x) DbgValFromString(x)
